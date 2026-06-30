@@ -1,0 +1,78 @@
+/* ===========================
+   Campus Commander Theme
+=========================== */
+
+QMainWindow, QWidget {
+    background-color: #020617;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+/* Sidebar */
+#sidebar {
+    background-color: #090d16;
+    border-right: 1px solid #1e293b;
+}
+
+/* Cards */
+QFrame#card {
+    background-color: #0F172A;
+    border-radius: 16px;
+    border: 1px solid #1E293B;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #111827;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    background-color: #00F5D4;
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: #06B6D4;
+}
+
+/* Labels */
+QLabel#title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+QLabel#subtitle {
+    color: #94A3B8;
+    font-size: 12px;
+}
+
+/* Line Edit */
+QLineEdit {
+    background-color: #0F172A;
+    border: 1px solid #1E293B;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #00F5D4;
+}
+
+/* Progress Bars */
+QProgressBar {
+    border: none;
+    background: #1E293B;
+    border-radius: 6px;
+    height: 8px;
+}
+
+QProgressBar::chunk {
+    background: #00F5D4;
+    border-radius: 6px;
+}
